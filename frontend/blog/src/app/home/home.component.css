@@ -1,0 +1,8 @@
+.parallax {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761__340.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

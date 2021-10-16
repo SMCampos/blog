@@ -1,27 +1,27 @@
 # Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+Projeto criado para aprendizado de Angular durante Bootcamp produzido pela Digital Innovation One.
 
-## Development server
+Para criar o projeto foi utilizado o [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Após criado o projeto foi utilizado o comando npm init para criar as dependências Node Modules.
 
-## Code scaffolding
+Para organizar o projeto foram organizadas as pastas em módulos. Foi criada a pasta src e dentro dela a pasta App onde foram componentizados os elementos das páginas HTML utilizando o framework Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Além dos componentes foram criadas as pastas service(chamada dos métodos HTTP) e model(implementação da classe).
 
-## Build
+Para a criação dos componentes foram utilizados o comando: `ng generate component component-name`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Na criação dos componentes podem ser utilizadas as seguintes diretivas para especificação do tipo de componente: `ng generate directive|pipe|service|class|guard|interface|enum|module`
 
-## Running unit tests
+Foram utilizadas as seguintes bibliotecas/dependências no projeto:
+@angular // @fortawesome (pacote de ícones/vetores) // bootstrap // jquery // rxjs
+jasmine e protactor (testes) // karma (inicialização dos métodos http)
+ts-node // typescript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para rodar o projeto localmente utilize o comando: npm run start
 
-## Running end-to-end tests
+O projeto irá abrir no navegador no seguinte endereço:`http://localhost:4200/`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para mais informações sobre o Angular acesse: [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
